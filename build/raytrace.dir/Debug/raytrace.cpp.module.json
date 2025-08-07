@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "raytrace.dir\\Debug\\raytrace.obj",
+            "outputs": [
+                "C:\\Users\\anild\\OneDrive\\Documents\\GPU Projects\\Raytracing\\build\\raytrace.dir\\Debug\\vc143.pdb",
+                "raytrace.dir\\Debug\\"
+            ],
+            "requires": []
+        }
+    ]
+}

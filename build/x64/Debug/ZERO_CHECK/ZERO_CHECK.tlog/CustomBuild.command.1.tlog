@@ -1,0 +1,10 @@
+^C:\USERS\ANILD\ONEDRIVE\DOCUMENTS\GPU PROJECTS\RAYTRACING\BUILD\CMAKEFILES\5F1000AD691D065471889C9A02D3990B\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/anild/OneDrive/Documents/GPU Projects/Raytracing" "-BC:/Users/anild/OneDrive/Documents/GPU Projects/Raytracing/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/anild/OneDrive/Documents/GPU Projects/Raytracing/build/raytrace.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
